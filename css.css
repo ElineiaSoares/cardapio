@@ -1,0 +1,39 @@
+body{
+    font-size: 22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 700px;
+}
+
+.unica{
+    width: 215%;
+    height: 500px;
+    
+}
+
+.grupo{
+    width: 30%;
+    float: right;
+}
+
+h1{
+    color:#056c3e;
+    text-decoration: overline underline;
+    font-size: 100px;
+    text-align: right;
+}
+
+p{
+    color: #487c65;
+    font-size: 40px;
+    margin-left: 60px;
+}
+
+.rodape{
+    background-color: #0a4c1f;
+  color: #e76305;
+  text-align: left;
+  padding: 100px;
+  letter-spacing: 5px;
+  width: 700%;
+  font-size: 50px;
+}
