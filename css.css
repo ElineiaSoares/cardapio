@@ -1,39 +1,68 @@
 body{
-    font-size: 22px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 700px;
-}
+    margin: 0;
+    /*font-size: 1em;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(Imagens/imagendefundo.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 254.8vh;
+    background-position: right bottom;
+    padding-bottom: 0;
+    min-height: 100vh;
 
-.unica{
-    width: 215%;
-    height: 500px;
-    
+}
+.grupo-cafe{
+    float: right;
+    width: 15em;
+    height: 15em;
+    margin-right: 5em;
+    padding-bottom: 1em;
 }
 
 .grupo{
-    width: 30%;
     float: right;
+    width: 15em;
+    height: 9em;
+    margin-right: 5em;
+    padding-bottom: 1em;
 }
 
+/*.unica{
+    margin: 0;
+    padding-bottom: 0;
+    width: 126.5em;
+    height: 40em;
+}*/
+
 h1{
-    color:#056c3e;
+    margin: 0;
+    color: #078a2e;
     text-decoration: overline underline;
-    font-size: 100px;
-    text-align: right;
+    font-size: 10em;
+    text-align: center;
+    padding-left: 1em;
+}
+.pn{
+    line-height:1.5;
+    color: #070707;
+    font-size: 6em;
+    text-align: center;
 }
 
 p{
-    color: #487c65;
-    font-size: 40px;
-    margin-left: 60px;
+    line-height:1.5;
+    color: #9bf076;
+    font-size: 4em;
+    margin-left: 1em;
 }
 
 .rodape{
     background-color: #0a4c1f;
-  color: #e76305;
-  text-align: left;
-  padding: 100px;
-  letter-spacing: 5px;
-  width: 700%;
-  font-size: 50px;
+    color: #e76305;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 6em;
+    letter-spacing: 5px;
+    width: 34.5em;
+    font-size: 4em;
 }
